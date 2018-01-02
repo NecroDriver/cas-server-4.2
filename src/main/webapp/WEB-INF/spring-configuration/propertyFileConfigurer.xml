@@ -34,7 +34,7 @@
 		can be moved between tiers without modification.
 	</description>
 
-    <util:properties id="casProperties" location="file:D:/mafh/cas-overlay-template-4.2/etc/cas.properties" />
+    <util:properties id="casProperties" location="file:/etc/cas.properties" />
 
     <context:property-placeholder properties-ref="casProperties" />
 
